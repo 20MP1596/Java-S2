@@ -1,0 +1,26 @@
+import Operation.addition;
+import java.util.*;
+import java.io.*;
+public class Operationmain
+{
+public static void main()
+{
+	int k;
+	addition a = new addition();
+	do
+	{
+	System.out.println("enter the choice");
+	System.out.println("1.Addition");
+	Scanner sc = new Scanner(System.in);
+	k=sc.nextInt();
+	switch(k)
+{
+case1: 
+	a.calculate();
+	break;
+case2:
+	default:System.out.println("wrong");
+	break;
+}}
+while(k<4);
+	
